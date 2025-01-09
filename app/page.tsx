@@ -8,6 +8,7 @@ import { NewGuestProfile } from "@/components/GuestProfile/NewGuestProfile";
 import { EditProfile } from "@/components/GuestProfile/EditProfile";
 import { MovieDetailsContainer } from "@/components/MainContainer/MovieDetailsContainer";
 import { WatchlistByName } from "@/components/Watchlist/WatchlistByName";
+import { EditWatchlist } from "@/components/Watchlist/EditWatchlist";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       {/* <NewGuestProfile></NewGuestProfile> */}
       {/* <EditProfile></EditProfile> */}
       {/* <MovieDetailsContainer></MovieDetailsContainer> */}
-      <WatchlistByName />
+      {/* <WatchlistByName /> */}
+      <EditWatchlist />
       {/* <WatchlistWindow></WatchlistWindow> */}
       {/* <MainContainerHome></MainContainerHome> */}
     </main>
